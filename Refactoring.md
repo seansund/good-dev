@@ -11,16 +11,16 @@ Same code structure in more than one place.
 __Possible approaches__:
 
 _Same class_
-* Extract Method
+* [Extract Method](#extract-method)
 
 _Sibling subclasses_
-* Extract Method
-* Pull Up Method
-* Form Template Method
-* Substitute Algorithm
+* [Extract Method](#extract-method)
+* [Pull Up Method](#pull-up-method)
+* [Form Template Method](#form-template-method)
+* [Substitute Algorithm](#substitute-algorithm)
 
 _Unrelated classes_
-* Extract Class 
+* [Extract Class](#extract-class) 
 
 ### Long Method
 
@@ -28,12 +28,12 @@ Each method should perform only one task and be limited to a handful of lines.
 
 __Possible approaches__:
 
-* Extract Method
-* Replace Temp with Query
-* Introduce Parameter Object (if long parameter list)
-* Preserve Whole Object
-* Replace Method with Method Object
-* Decompose Conditional
+* [Extract Method](#extract-method)
+* [Replace Temp with Query](#replace-temp-with-query)
+* [Introduce Parameter Object](#introduce-parameter-object) (if long parameter list)
+* [Preserve Whole Object](#preserve-whole-object)
+* [Replace Method with Method Object](#replace-method-with-method-object)
+* [Decompose Conditional](#decompose-conditional)
 
 ### Large Class
 
@@ -41,10 +41,10 @@ __Possible approaches__:
 
 __Possible approaches__:
 
-* Extract Class
-* Extract Subclass
-* Extract Interface
-* Duplicate Observed Data
+* [Extract Class](#extract-class)
+* [Extract Subclass](#extract-subclass)
+* [Extract Interface](#extract-interface)
+* [Duplicate Observed Data](#duplicate-observed-data)
 
 ### Long Parameter List
 
@@ -155,6 +155,8 @@ Comments aren't bad in themselves but they often indicate code that is more comp
 ### Extract Class
 
 ### Extract Hierarchy
+
+### Extract Interface
 
 ### Extract Method
 
